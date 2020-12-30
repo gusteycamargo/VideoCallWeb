@@ -11,3 +11,10 @@ export function setUserToCall(userToCall) {
         userToCall
     };
 }
+
+export function setUserLogged(userLogged) {
+    return {
+        type: "USER_LOGGED",
+        userLogged
+    };
+}

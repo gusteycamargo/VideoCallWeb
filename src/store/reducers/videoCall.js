@@ -1,6 +1,7 @@
 const INITIAL_STATE = {
     showModal: false,
-    userToCall: {}
+    userToCall: {},
+    userLogged: ''
 }
 
 export default function videoCall(state = INITIAL_STATE, action) {
@@ -14,6 +15,12 @@ export default function videoCall(state = INITIAL_STATE, action) {
         return {
             ...state,
             userToCall: action.userToCall
+        }
+    }
+    else if(action.type === "USER_LOGGED") {
+        return {
+            ...state,
+            userLogged: action.userLogged
         }
     }
     

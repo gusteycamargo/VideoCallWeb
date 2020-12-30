@@ -7,7 +7,8 @@ import { users } from "./config";
 import { AuthService, CallService } from './services';
 import { Provider, connect } from 'react-redux';
 import store from './store/index';
-import Login from './pages/Login';
+import Routes from './routes/routes';
+import { BrowserRouter } from 'react-router-dom';
 
 class App extends Component {
 
@@ -18,9 +19,11 @@ class App extends Component {
   render() {
 
     return (
-      <Provider store={store}>
-        <Login/>
-      </Provider>
+      <BrowserRouter>
+        <Provider store={store}>
+          <Routes/>
+        </Provider>
+      </BrowserRouter>
     );
   }
 }
