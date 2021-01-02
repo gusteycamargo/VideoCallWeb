@@ -1,6 +1,6 @@
-<h3 align="center">
+<h1 align="center">
   Vídeo chamadas
-</h3>
+</h1>
 
 ## :calendar: Sobre o sistema
 
