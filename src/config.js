@@ -31,14 +31,14 @@ export const messages = {
   
   export const users = [
     {
-      id: 3153669,
+      id: 4502755,
       name: "Usuário1",
       login: "usuario1@email.com",
       password: "senha123",
       color: "#34ad86"
     },
     {
-      id: 3153671,
+      id: 4502757,
       name: "Usuário2",
       login: "usuario2@email.com",
       password: "senha123",
